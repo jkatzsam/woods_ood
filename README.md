@@ -34,6 +34,8 @@ For example, to run woods on cifar10 using dtd as the mixture distribution and t
 bash run.sh woods cifar10 dtd dtd 
 ```
 
+pi is set to 0.1 as default. See the run.sh for more details and options. 
+
 # Main Files
 
 * ```CIFAR/train.py``` contains the main code used to train model(s) under our framework.
