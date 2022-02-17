@@ -28,44 +28,16 @@ This script makes the datasets used in training. The main function is make_datas
 
 
 # *** update this before running on your machine ***
-# paths = 'JBN'
-paths = 'JKS'
-
-if paths == 'JKS':
-
-    cifar10_path = '../data/cifarpy'
-    cifar100_path = '../data/cifar-100-python'
-    svhn_path = '/nobackup-slow/dataset/svhn/'
-    lsun_c_path = '/nobackup-slow/dataset/LSUN_C'
-    lsun_r_path = '/nobackup-slow/dataset/LSUN_resize'
-    isun_path = '/nobackup-slow/dataset/iSUN'
-    dtd_path = '/nobackup-slow/dataset/dtd/images'
-    places_path = '../data/places365/'
-    tinyimages_300k_path = '/u/k/a/katzsamuels/ssnd_experiments/data/300K_random_images.npy'
-    svhn_path = '/u/k/a/katzsamuels/ssnd_experiments/data/svhn'
-
-elif paths == 'JBN':
-
-    cifar10_path = '../data/cifarpy'
-    cifar100_path = '../data/cifar-100-python'
-    svhn_path = '/nobackup/svhn_jnakhleh'
-    lsun_c_path = '/nobackup/lsun_c_jnakhleh/LSUN'
-    lsun_r_path = '/nobackup/lsun_r_jnakhleh/LSUN_resize'
-    isun_path = '/nobackup/isun_jnakhleh/iSUN'
-    dtd_path = '/nobackup/dtd_jnakhleh/dtd/images'
-    places_path ='/nobackup/places_jnakhleh/extracted/test_256'
-    tinyimages_300k_path = '/nobackup/tinyimages_300k_jnakhleh/data/300K_random_images.npy'
-
-# cifar10_path = '../data/cifarpy'
-# cifar100_path = '../data/cifar-100-python'
-# svhn_path = '../data/svhn/'
-# lsun_c_path = '../data/LSUN_C'
-# lsun_r_path = '../data/LSUN_resize'
-# isun_path = '../data/iSUN'
-# dtd_path = '../data/dtd/images'
-# places_path = '../data/places365/'
-# tinyimages_300k_path = '../data/300K_random_images.npy'
-# svhn_path = '../data/svhn'
+cifar10_path = '../data/cifarpy'
+cifar100_path = '../data/cifar-100-python'
+svhn_path = '../data/svhn/'
+lsun_c_path = '../data/LSUN_C'
+lsun_r_path = '../data/LSUN_resize'
+isun_path = '../data/iSUN'
+dtd_path = '../data/dtd/images'
+places_path = '../data/places365/'
+tinyimages_300k_path = '../data/300K_random_images.npy'
+svhn_path = '../data/svhn'
 
 
 
