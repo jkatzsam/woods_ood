@@ -3,7 +3,7 @@ batch_size=128
 ngpu=1
 prefetch=4
 epochs=100
-script=train_ssnd_new.py
+script=train.py
 
 load_pretrained='snapshots/pretrained'
 checkpoints_dir=''
