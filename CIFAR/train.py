@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 from sklearn.metrics import det_curve, accuracy_score, roc_auc_score
-
 from make_datasets_new import *
 from models.wrn_ssnd import *
-from vos import *
 
 import wandb
 

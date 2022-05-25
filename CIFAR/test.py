@@ -69,7 +69,8 @@ results_root = args.results_root
 
 #specify write root
 figs_root = args.figs_root
-
+if not os.path.exists(figs_root):
+    os.makedirs(figs_root)
 
 #if true, use the test score to judge model; otherwise, use the validation score
 if args.use_test_score == 0:

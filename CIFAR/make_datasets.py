@@ -262,7 +262,7 @@ def make_datasets(in_dset, aux_out_dset, test_out_dset, pi, state):
 
     print('building datasets...')
 
-    train_in_data, aux_in_data, test_in_data = load_in_data(in_dset, pi, rng)
+    train_in_data, aux_in_data, test_in_data = load_in_data(in_dset, rng)
     aux_out_data, test_out_data = load_out_data(aux_out_dset, test_out_dset, in_dset, rng)
 
     # make validation set from CIFAR test set
